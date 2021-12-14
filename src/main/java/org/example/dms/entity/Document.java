@@ -61,6 +61,12 @@ public class Document {
 
     private boolean deleted = Boolean.FALSE;
 
-
+    public Document(Long id, String documentCode, String description, LocalDate issueDate, LocalDate expiryDate) {
+        this.id = id;
+        this.documentCode = documentCode;
+        this.description = description;
+        this.issueDate = issueDate;
+        this.expiryDate = expiryDate;
+    }
 }
 
